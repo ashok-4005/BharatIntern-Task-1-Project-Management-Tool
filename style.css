@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65%;
+}
+
+body {
+
+    background: linear-gradient(to bottom, #f06292, #9f13ea, #841abc, #500479);
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #1b0c0c; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.2); 
+    transform-style: preserve-3d;
+    transition: .3s;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+    max-width: 60rem;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.well {
+    background: linear-gradient(to bottom,#f06292, #9f13ea);
+    max-width: 60rem;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#savebtn,
+#clrbtn {
+    font-size: 1.5rem;
+    background: #ff5e00; 
+    outline: none;
+    border: none;
+    color: #fff; 
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#savebtn:hover,
+#clrbtn:hover {
+    background: #ff4600; 
+}
+
+.labid {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid #333;
+    align-items: center;
+}
+
+.labid span {
+    background: #ff5e00; 
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.labid h6 {
+    margin-top: 5px;
+}
+
+.well p glyphicon-user {
+    margin-left: 1rem;
+}
+
+.well #closebtn {
+    background: #890808;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.well #closebtn:hover {
+    background: #7e0c17; 
+}
+
+.well #delbtn {
+    background: #db0404; 
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.well #delbtn:hover {
+    background: #ad0202; 
+}
+
+.backbtn {
+    position: absolute;
+    font-size: 3rem;
+    float: left;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 13rem;
+    color: #fff;
+}
+
+.backbtn a {
+    text-decoration: none;
+    color: inherit;
+}
