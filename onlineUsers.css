@@ -1,0 +1,50 @@
+body {
+      display: flex;
+      justify-content:flex-end;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .user-list {
+      width: 300px; 
+      padding: 20px;
+      background: linear-gradient(to bottom,#f06292, #9f13ea);
+      border-radius: 5PX;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin:80px;
+    }
+
+    .user-list h2 {
+      margin: 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #729b4b;
+    }
+
+    .user-list-item {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+
+    .status {
+      width: 10px;
+      height: 10px;
+      background-color: green; /* You can use different colors for online and offline users */
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .status1 {
+      width: 10px;
+      height: 10px;
+      background-color: red; /* You can use different colors for online and offline users */
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .avatar img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
